@@ -3,3 +3,14 @@
 This is a video series on backend with javascript
 
 Project Overview => https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+
+/*
+First create a 
+1- package.json file using git init and setup accordingly then 
+2- readme file if you want 
+3- public folder for storing utilities files
+4- can create .gitkeep folder to store and update git from empty folder or file as well
+5- .gitignore to ignore files from pushing or sharing data with others (can use .gitignore generator)
+6- .env or .env.sample for storing private data like credentials 
+7-
+*/
