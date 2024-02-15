@@ -12,5 +12,9 @@ First create a
 4- can create .gitkeep folder to store and update git from empty folder or file as well
 5- .gitignore to ignore files from pushing or sharing data with others (can use .gitignore generator)
 6- .env or .env.sample for storing private data like credentials 
-7-
+7- create folder as build on src folder 
+8- download prettier extension on vs code or npm i prettier
+9- create file .prettierrc for formatting document as needed like where to add single qoute bracket semicolon and tab WIdth and wwhere to use
+10- create .prettierignore => where not to implement prettier features
+11- 
 */
