@@ -16,5 +16,9 @@ First create a
 8- download prettier extension on vs code or npm i prettier
 9- create file .prettierrc for formatting document as needed like where to add single qoute bracket semicolon and tab WIdth and wwhere to use
 10- create .prettierignore => where not to implement prettier features
-11- 
+11- connect db mongodb with 2 methods within index.js or in db folder
+12- connected to server with organized folder structure (export app from app.js and import at index.js)
+13- added cors origin (allow url request ), cookieparser and some more middlewares
+14- created utils files
+15-
 */
