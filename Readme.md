@@ -20,5 +20,7 @@ First create a
 12- connected to server with organized folder structure (export app from app.js and import at index.js)
 13- added cors origin (allow url request ), cookieparser and some more middlewares
 14- created utils files
-15-
+15- create model schema and add bcrypt package to hash password and jsonweb token
+16- # command => crypto.randomBytes(256).toString('base64')
+17- accesstoken & refresh token, created 2 model user and video. In video model will discuss aggregation pipelines later on
 */
