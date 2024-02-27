@@ -23,4 +23,75 @@ First create a
 15- create model schema and add bcrypt package to hash password and jsonweb token
 16- # command => crypto.randomBytes(256).toString('base64')
 17- accesstoken & refresh token, created 2 model user and video. In video model will discuss aggregation pipelines later on
+18- learned how to upload files in nodejs using cloudinary
+19- HTTP CRASH COURSE
+/*
+    HTTP: HYPER TEXT TRANSFER PROTOCOL
+    URL => UNIFORM RESOURCE LOCATOR
+    URI => UNIFORM RESOURCE INDENTIFIER
+    URN => UNIFORM RESOURCE NAME
+
+    WHAT ARE HTTP HEADERS?
+    - metadata => key-value sent along with request and response 
+    - caching, authentication, manage state
+
+    - REQUEST HEADERS -> FROM CLIENT
+    - RESPONSE HEADERS -> from server
+    - REPRESENTATION HEADERS -> encoding/ compression
+    - PAYLOAD HEADERS -> data
+
+    MOST COMMON HEADERS
+    - ACCEPT: application/json
+    - USER- AGENT
+    - AUTHORIZATION : like Bearer token
+    - CONTENT-TYPE
+    - COOKIE
+    - CACHE - CONTROL
+
+    CORS
+    - ACCESS -CONTROL - ALLOW - ORIGIN
+    - ACCESS -CONTROL - ALLOW - CREDENTIALS
+    - ACCESS -CONTROL - ALLOW - METHOD
+
+    SECURITY
+    - CROSS - ORIGIN -EMBEDDER - POLICY
+    - CROSS - ORIGIN -OPENER - POLICY 
+    - CONTENT - SECURITY - POLICY
+    - X - XSS - PROTECTION
+
+    HTTP METHODS => Basic set of operations that can be used to interact with server
+
+    - GET => RETRIEVE A RESOURCE
+    - HEAD => no message body (response headers only)
+    - OPTIONS => what operations are avaliable
+    - TRACE => loopback test (get same data)
+    - DELETE => remove a resource
+    - PUT => relace a resource
+    - POST => interact with resource (mostly add)
+    - PATCH => change part of a resource
+
+    HTTP STATUS CODE
+    - 1 xx:  INFORMATIONAL
+    - 2 xx : Success
+    - 3 xx : Redirection
+    - 4 xx : client error
+    - 5 xx : server error
+
+
+    100 COntinue
+    102 Processing
+    200 Ok
+    201 Created
+    202 Accepted
+    307 Temporary redirect
+    308 permanent redirect
+    400 Bad request
+    401 Unauthorized
+    402 Payment required
+    404 Not found
+    500 Internal server error
+    504 Gateway time out
+*/
+20- created Controller files
+21- created router files
 */
